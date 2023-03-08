@@ -1,0 +1,2 @@
+laravel/env/*
+ENV_FILE = [f for f in os.listdir(os.path.join(BASE_DIR, 'laravel/env')) if f.endswith('.env')]
